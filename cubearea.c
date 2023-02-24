@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-int cube(int side);
 
 int cube(int side)
 {
