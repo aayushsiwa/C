@@ -4,13 +4,6 @@
 main()
 {
     
-    int a, b;
-    a=3601;
-    b=a%60;
-    printf("%d",b);
-
-
-
 }
 
 
