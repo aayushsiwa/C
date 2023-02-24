@@ -15,9 +15,8 @@ int main()
     printf("\n%d",a);
     h=a/3600;
     printf("\n%d",h);
-    m=a/60;
+    m=(a/60)-60;
     printf("\n%d",m);
-        
     printf("\nThe time is %d hours, %d minutes and %d seconds", h, m, s);
 
 }
