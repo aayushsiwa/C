@@ -1,7 +1,47 @@
 #include<stdio.h>
 #include<math.h>
 
+
 int main()
+{
+    
+}
+
+/*
+{
+    int n, s, a, b, c, d;
+    printf("Enter the four digit number:");
+    scanf("%d",&n);
+    a=n/1000;
+    printf("%d",a);
+    b=(n/100)%10;
+    printf("%d",b);
+    c=(n/10)%10;
+    printf("%d",c);
+    d=(n%10);
+    printf("%d",d);
+    s=a+b+c+d;
+    printf("Sum of the digits is %d",s);
+    return 0;
+}
+
+
+{
+    int r1, r2, p1, p2, sr, sp, a;
+    printf("Enter the 1st amount(Rs. Paise)\n:");
+    scanf("%d %d", &r1, &p1);
+    printf("Enter the 2nd amount(Rs. Paise)\n:");
+    scanf("%d %d", &r2, &p2);
+    sr=r1+r2;
+    sp=p1+p2;
+    a=sp%100;
+    sp=sp-a;
+    sr=sr+sp/100;
+    printf("The total amount is Rs. %d.%d",sr, a);
+
+}
+
+
 {
     int a, h, m, s;
     printf("Enter the time in seconds:");
@@ -18,17 +58,6 @@ int main()
     printf("\nThe time is %d hours, %d minutes and %d seconds", h, m, s);
 
 }
-
-
-
-
-/*    m=a/60;
-    h=m/60;
-    printf("The time is %d hours, %d minutes and %d seconds", h, m, s);*/
-
-
-
-/*
 {
     int l, b, h, a;
     printf("Enter the length:");
