@@ -2,9 +2,8 @@
 #include<stdio.h>
 int main()
 {
-    int i,s,b;
+    int i,s=0,b;
     scanf("%d",&i);
-    s=0;
     while (i>0)
     {
         b=i%10;
