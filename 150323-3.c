@@ -1,13 +1,7 @@
 //wap to create basic calculator using switch case
 #include<stdio.h>
-int main()
-{
-    char op;
-    int first , second, ans;
-    printf("Enter the operator(+,-,*,/<%%)\n:");
-    scanf("%c",&op);
-    printf("Enter the two operands\n:");
-    scanf("%d %d",&first, &second);
+int calc(char op,int first,int second,int ans)
+{   
     switch(op)
     {
         case('+'):
@@ -45,5 +39,15 @@ int main()
             printf("Try again");
             break;
         }
-    }   
+    }
+}
+int main()
+{
+    char op;
+    int first , second, ans;
+    printf("Enter the operator(+,-,*,/<%%)\n:");
+    scanf("%c",&op);
+    printf("Enter the two operands\n:");
+    scanf("%d %d",&first, &second);
+    calc(op,first,second,ans);
 }
