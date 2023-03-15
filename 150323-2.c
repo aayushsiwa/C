@@ -1,11 +1,8 @@
 //wap to check whether a number is an Angstrom number or not
 #include<stdio.h>
-int main()
+int is_ang(int a)
 {
-    int a, b, c=0, d, sum;
-    printf("Enter the number:\n");
-    scanf("%d",&a);
-    d=a;
+    int b, c=0, d=a, sum=0;
     while(a>0)
     {
         b=a%10;
@@ -21,4 +18,11 @@ int main()
     {
         printf("The given number is not an Angstrom number\n");
     }
+}
+int main()
+{
+    int a, b, c=0, d, sum;
+    printf("Enter the number:\n");
+    scanf("%d",&a);
+    is_ang(a);
 }
