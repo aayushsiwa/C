@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    int a=0,b=1,c,n;
+    int a=0,b=1,n;
     printf("Enter the number of terms:\n");
     scanf("%d",&n);
     for (int i=0;i<n;i++)
