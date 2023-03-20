@@ -1,4 +1,4 @@
-//wap to print first ten terms of (1, 4, 9, 16,...).
+//wap to print first n terms of (1, 4, 9, 16,...).
 #include<stdio.h>
 int main()
 {
