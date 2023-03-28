@@ -5,7 +5,7 @@ int main()
     float i,sum=0,n;
     printf("Enter the number of terms:\n");
     scanf("%f",&n);
-    for (i=1;i<=n;i++)
+    for (i=1;i<=n/2;i++)
     {
         sum+=1/(2*i-1);
     }
