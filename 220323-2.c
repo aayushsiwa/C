@@ -25,7 +25,7 @@ int is_kris(int n)
     }
     else
     {
-        printf("%d is not a Krishnamurthy nnumber",i);
+        printf("%d is not a Krishnamurthy number",i);
     }
 }
 int main()
