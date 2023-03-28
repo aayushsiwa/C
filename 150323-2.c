@@ -21,7 +21,7 @@ int is_ang(int a)
 }
 int main()
 {
-    int a, b, c=0, d, sum;
+    int a;
     printf("Enter the number:\n");
     scanf("%d",&a);
     is_ang(a);
