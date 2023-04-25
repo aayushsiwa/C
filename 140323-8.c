@@ -1,10 +1,8 @@
 //wap to check whether an integer is perfect number or not
 #include<stdio.h>
-int main()
+int isperf(int a)
 {
-    int a,i,s;
-    scanf("%d",&a);
-    s=0;
+    int i,s=0;
     for (i=1;i<a;i++)
     {
         if (a%i==0)
@@ -16,5 +14,12 @@ int main()
     {
         printf("Perfect");
     }
-    else printf("Not");
+    else printf("Not Perfect");
+}
+int main()
+{
+    int a;
+    printf("Enter the number:\n");
+    scanf("%d",&a);
+    isperf(a);
 }
