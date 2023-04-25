@@ -1,9 +1,8 @@
 //wap to calculate the sum of digits of a given number
 #include<stdio.h>
-int main()
+int sod(int i)
 {
-    int i,s=0,b;
-    scanf("%d",&i);
+    int b,s=0;
     while (i>0)
     {
         b=i%10;
@@ -11,4 +10,10 @@ int main()
         i=i/10;
     }
     printf("%d",s);
+}
+int main()
+{
+    int i;
+    scanf("%d",&i);
+    sod(i);
 }
