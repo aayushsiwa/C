@@ -1,9 +1,8 @@
 //wap to check whether a given number is prime or not
 #include<stdio.h>
-int main()
+int isprime(int a)
 {
-    int a,b=1,i;
-    scanf("%d",&a);
+    int b=1,i;
     if (a<=1)
     {
         b=0;
@@ -24,6 +23,13 @@ int main()
     }
     else
     {
-        printf("Not");
+        printf("Not Prime");
     }
+}
+int main()
+{
+    int a;
+    printf("Enter the number to check if prime or not:\n");
+    scanf("%d",&a);
+    isprime(a);
 }
