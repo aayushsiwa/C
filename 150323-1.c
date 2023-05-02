@@ -15,7 +15,7 @@ int fibonacci(int n)
     {
         while (sum < n)
         {
-            printf("%d",n1);
+            printf("%d ",n1);
             nth=n1+n2;
             n1=n2;
             n2=nth;
