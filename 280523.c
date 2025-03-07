@@ -10,4 +10,5 @@ int main()
     printf("address of x in  y %u\n",y);
     printf("this '*' goes to y, finds address of x,\n gets the value stored at that address %d\n",*y);
     printf("adress of variable y %u\n",&y);
+    printf("address of x in  y %p\n",*y);
 }
